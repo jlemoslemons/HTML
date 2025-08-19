@@ -1,0 +1,66 @@
+ * {
+     text-align: center;
+     font-family: Arial, Helvetica, sans-serif;
+ }
+
+ #containerNav {
+     position: fixed;
+     width: 645px;
+     height: 80px;
+     margin: auto;
+     background-color: #333d23;
+     left: auto;
+     z-index: 10;
+ }
+
+ #container {
+     position: relative;
+     left: 640px;
+     top: 0px;
+     width: 645px;
+     height: 2090px;
+     background-color: gray;
+ }
+
+ #logo {
+     width: 150px;
+     height: 70px;
+     padding: 5px;
+     display: flex;
+     justify-content: left;
+ }
+
+ li {
+     display: inline;
+     float: left;
+ }
+
+ li a {
+     display: block;
+     color: #bb8638;
+     padding: 25px 25px;
+     margin: 5px;
+     text-decoration: none;
+ }
+
+ li a:hover {
+     background-color: #5c6e3f;
+ }
+
+ ul {
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+ }
+
+ #anuncio {
+     position: static;
+     width: 645px;
+     height: 1045px;
+ }
+
+ .redes {
+    height: 10px;
+    width: 10px;
+
+ }
