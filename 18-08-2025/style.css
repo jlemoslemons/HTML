@@ -4,7 +4,7 @@
  }
 
  #containerNav {
-     position: fixed;
+     position: absolute;
      width: 645px;
      height: 80px;
      margin: auto;
@@ -53,14 +53,17 @@
      padding: 0;
  }
 
- #anuncio {
+ .anuncio {
      position: static;
      width: 645px;
      height: 1045px;
  }
 
- .redes {
-    height: 10px;
-    width: 10px;
-
+ .icon {
+    position: fixed;
+    height: 40px;
+    width: 40px;
+    z-index: 11;
+    right: 568px;
+    top: 875px;
  }
